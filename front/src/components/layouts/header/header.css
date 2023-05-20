@@ -1,0 +1,42 @@
+@font-face {
+  font-family: "GT-Walsheim";
+  src: local("GT-Walsheim"),
+  url(../../../fonts//GT-Walsheim/GT-Walsheim-Bold.ttf);
+  font-weight: bold;
+
+}
+.header {
+    position: sticky;
+    z-index: 40;
+    width: 100%;
+    top: 0;
+    border-bottom: 1px solid #fbf7f7;
+    color: #ffffff;
+      background-color: rgba(0,185,86);
+
+  }
+  .header + .bottom-shadow {
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.24);
+  }
+  
+  .header.bottom-shadow {
+    box-shadow: 0 1px 8px rgba(4, 4, 4, 0.149);
+  }
+  .icons {
+    width: 50px;
+    height: 50px;
+    background-color: #ca45e2;
+    position: relative;
+  
+  }
+  .logo {
+    position: absolute;
+    top: 13px;
+    left: 11px;
+    font-family: "GT-Walsheim";
+    font-size: 20px;
+    
+  }
+  .navbar {
+    background-color: #00b956; 
+  }

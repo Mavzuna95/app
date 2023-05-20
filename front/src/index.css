@@ -1,0 +1,12 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@font-face {
+    font-family: "GT-Walsheim";
+    src: local("GT-Walsheim"),
+    url(./fonts/GT-Walsheim/GT-Walsheim-Regular.ttf);
+  }
+  .font-walsheim-regular {
+    font-family: "GT-Walsheim";
+    font-weight: 600;
+  }
